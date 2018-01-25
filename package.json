@@ -1,0 +1,20 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src/ --out-dir public/ && node serve.js"
+  },
+  "keywords": [],
+  "author": "Joël Kuijten",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^6.4.9"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
